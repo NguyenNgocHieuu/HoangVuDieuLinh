@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="icon" type="image/png" href="./img/CILKGax.png" />
+	<title>Happy Birthday Lyn!!</title>
+	<link rel="stylesheet" href="./css/style.css" />
+	<link rel="stylesheet" href="./css/text.css" />
+	<link rel="stylesheet" href="./css/player-music.css" />
+	<link rel="stylesheet" href="./css/gallery.css" />
+	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'>
+	<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comic+Sans+MS">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+
+
+
+</head>
+
+<body class="page__main">
+
+	<div id="countdown">
+		<div class="reveal-text btn-click" id="click-btn">Click vào đi nè!</div>
+		<div id="wrap">
+			<div class="c"></div>
+			<div class="o"></div>
+			<div class="u"></div>
+			<div class="n"></div>
+			<div class="t"></div>
+		</div>
+
+		<svg>
+			<defs>
+				<filter id="filter">
+					<feGaussianBlur in="SourceGraphic" stdDeviation="18" result="blur" />
+					<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 28 -10"
+						result="filter" />
+					<feComposite in="SourceGraphic" in2="filter" operator="atop" />
+				</filter>
+			</defs>
+		</svg>
+	</div>
+
+	<div class="layerMask">
+
+
+		<div class="cover-wrap">
+			<img src="./img/MyAvatar.jpg" alt="" class="cover" id="cover-id" />
+
+		</div>
+
+		<!-- <div class="text_auto" id="text_auto">
+			<div class="auto">
+				<span id='text_content'></span>
+			</div>
+		</div> -->
+		<div class="happ">
+			<div class="habi">
+				<div class="happy">
+					<div class="balloon balloon1 balloon-anim1">
+					</div>
+					<div class="balloon balloon2 balloon-anim6">
+					</div>
+					<div class="balloon balloon3 balloon-anim1">
+					</div>
+					<div class="balloon balloon4 balloon-anim4">
+					</div>
+					<div class="balloon balloon5 balloon-anim5">
+					</div>
+				</div>
+				<div class="birthday">
+					<div class="balloon balloon3 balloon-anim6">
+					</div>
+					<div class="balloon balloon1 balloon-anim5">
+					</div>
+					<div class="balloon balloon4 balloon-anim5">
+					</div>
+					<div class="balloon balloon2 balloon-anim6">
+					</div>
+					<div class="balloon balloon1 balloon-anim4">
+					</div>
+					<div class="balloon balloon3 balloon-anim5">
+					</div>
+					<div class="balloon balloon2 balloon-anim1">
+					</div>
+					<div class="balloon balloon4 balloon-anim6">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal-container">
+		<div class="modal" id="modal">
+			<div class="modal_inner " id="modal_inner">
+				<div class="modal_header" id="modal_header">
+					<p>Chào cuccutxauxi =))</p>
+					<i class="fa fa-times" aria-hidden="true"></i>
+				</div>
+				<div class="modal_body" id="modal_body">
+					<p>Nay sinh nhật mày mà tao không biết nói gì nên thôi chúc mày tuổi mới mãi xinh mau giàu để
+						cho tao tiền =))</p>
+				</div>
+				<div class="modal_footer" id="modal_footer">
+					<button>Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="box" style="z-index: 99999;" id="box360">
+		<ul class="minbox">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+		<ol class="maxbox">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ol>
+	</div>
+
+</body>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src="./js/player-music.js"></script>
+<script src="./js/text.js"></script>
+<script src="./js/countdown.js"></script>
+<script src="./js/anime.js"></script>
+<script src="./js/main.js"></script>
+
+</html>

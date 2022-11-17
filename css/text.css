@@ -1,0 +1,33 @@
+/* ========================================================= */
+/* ========================================================= */
+/* css chữ tự gõ */
+body {
+  background-color: #120439;
+  height: 100%;
+}
+
+.text_auto {
+  position: relative;
+  width: 400px;
+  height: 30px;
+  margin: 200px 0 0 900px;
+}
+
+#text_content {
+  font-family: 'Fira Code', monospace;
+  width: 200px;
+  font-size: 18px;
+  color: white;
+  font-weight: 900;
+}
+
+.auto span {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
